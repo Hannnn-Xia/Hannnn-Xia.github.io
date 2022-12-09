@@ -10,12 +10,12 @@
 }
 
 body {
-    margin: 0;
-    /* padding: 0.5rem;    */
-    /* min-height: 100%; */
+    padding: 0.5rem;
+    min-height: 100%;
 }
 
 main {
+    margin-top: 20px;
     padding: 0 24px;
     height: 100%
 }
@@ -29,12 +29,12 @@ header {
 }
 
 nav {
+    z-index: 10;
     display: flex;
     place-items: center;
     align-items: flex-end;
     padding: 4rem 20000px 0 0;
     margin-left: 200px;
-
 }
 
 
@@ -72,7 +72,7 @@ nav a:last-child {
 }
 
 .project-link strong {
-    color: #F10101;
+    color: #030303;
     margin: 0;
 }
 
